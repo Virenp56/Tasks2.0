@@ -68,9 +68,10 @@ li {
   color: var(--grey-70);
 }
 
-li.a.pointer {
+li .pointer {
   cursor: pointer;
 }
+
 
 /*-- end:All Left-Navbar Style --*/
 
@@ -285,6 +286,7 @@ li.a.pointer {
   flex-direction: column;
   margin-right: 116px;
 }
+
 .lable3-price {
   font-family: "Roboto";
   font-style: normal;
@@ -304,6 +306,7 @@ li.a.pointer {
   color: #6b7a99;
   background: #1a2233;
 }
+
 /*-- end:black-lable3 --*/
 
 /*-- start:black-lable4 --*/
@@ -313,10 +316,12 @@ li.a.pointer {
   margin-left: 40px;
   margin-right: 40px;
 }
+
 .lable4-img {
   background: #1a2233;
   margin-left: 20px;
 }
+
 /*-- end:black-lable4 --*/
 
 /*-- end:black-lable --*/
@@ -332,6 +337,7 @@ li.a.pointer {
   background: #8833ff;
   border-radius: 10px;
 }
+
 .purple-price {
   font-family: "Roboto";
   font-style: normal;
@@ -342,6 +348,7 @@ li.a.pointer {
   margin-top: 30px;
   color: #ffffff;
 }
+
 .purple-tran {
   font-family: "Roboto";
   font-style: normal;
@@ -352,6 +359,7 @@ li.a.pointer {
   background: #8833ff;
   color: #ffffff;
 }
+
 /*-- end:purple-lable --*/
 
 /*-- start:google-play --*/
@@ -360,6 +368,7 @@ li.a.pointer {
   justify-content: space-between;
   margin-top: 30px;
 }
+
 .google-play-card {
   display: flex;
   flex-direction: column;
@@ -371,6 +380,7 @@ li.a.pointer {
   box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.05);
   border-radius: 10px;
 }
+
 .google-play-logo {
   display: flex;
   flex-direction: row;
@@ -383,6 +393,7 @@ li.a.pointer {
   box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
   border-radius: 100px;
 }
+
 .google-play-title {
   font-family: "Roboto";
   font-style: normal;
@@ -392,6 +403,7 @@ li.a.pointer {
   background: white;
   margin-top: 15px;
 }
+
 /*-- end:google-play --*/
 /*-- end:left-lable2 --*/
 
@@ -413,6 +425,7 @@ li.a.pointer {
   box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.05);
   border-radius: 10px;
 }
+
 .transaction {
   display: flex;
   justify-content: center;
@@ -424,6 +437,7 @@ li.a.pointer {
   color: #4d5e80;
   background: #ffffff;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .rc1 {
@@ -440,6 +454,7 @@ li.a.pointer {
   justify-content: start;
   background: #ffffff;
 }
+
 .rc1-logo {
   display: flex;
   flex-direction: row;
@@ -451,12 +466,14 @@ li.a.pointer {
   border-radius: 50px;
   margin-right: 25px;
 }
+
 .rc2-text {
   display: flex;
   flex-direction: column;
   background: #ffffff;
   justify-content: space-evenly;
 }
+
 .rc2-text1 {
   font-family: "Roboto";
   font-style: normal;
@@ -483,6 +500,7 @@ li.a.pointer {
   color: #4d5e80;
   background: #ffffff;
 }
+
 /*-- end:right-lable2-card1 --*/
 
 /*-- start:right-lable2-card2 --*/
@@ -497,6 +515,7 @@ li.a.pointer {
   box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.05);
   border-radius: 10px;
 }
+
 .rc2-title {
   font-family: "Roboto";
   font-style: normal;
@@ -508,9 +527,11 @@ li.a.pointer {
   margin-left: 20px;
   background: #ffffff;
 }
+
 .rc2-chart {
   background: #ffffff;
 }
+
 /*-- end:right-lable2-card2 --*/
 
 /*-- start:right-lable2-card3 --*/
@@ -531,9 +552,11 @@ li.a.pointer {
   box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.05);
   border-radius: 10px;
 }
+
 .apple-logo {
   background: #ff6633;
 }
+
 .apple-logo-bar {
   background: #ff6633;
   margin-left: 40px;
@@ -560,6 +583,7 @@ li.a.pointer {
   line-height: 60px;
   color: #ffffff;
 }
+
 /*-- end:apple-card --*/
 
 /*-- start:msg-card --*/
@@ -574,6 +598,7 @@ li.a.pointer {
   box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.05);
   border-radius: 10px;
 }
+
 .msg-logo {
   background: #33bfff;
   margin-bottom: 17px;
@@ -582,6 +607,7 @@ li.a.pointer {
 .msg-logo-bar {
   background: #33bfff;
 }
+
 .msg-title {
   background: #33bfff;
   font-family: "Roboto";
@@ -603,12 +629,46 @@ li.a.pointer {
 
 /*-- end:left-container --*/
 
+
 /*-- start:rigth-container --*/
 .aside-container {
-  margin-top: 30px;
-  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 30px;
 }
+
 .aside-card {
+  width: 270px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #ffffff;
+  border: 2px solid #EDEFF2;
+  border-radius: 15px;
+}
+
+.ac1 {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ac1-1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.ac2 {
+  background: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*-- end:rigth-container --*/
